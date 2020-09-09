@@ -1,0 +1,31 @@
+#main-container {
+    background-color: beige;
+}
+
+.list-item-ul {
+    color: red;
+}
+
+.list-item-ol {
+    color: blue;
+}
+
+.pink-bg {
+    background-color: pink;
+}
+
+.skyblue-bg {
+    background-color: skyblue;
+}
+
+#brown-bg {
+    background-color: brown;
+}
+
+h3 {
+    background-color: greenyellow;
+}
+
+h6 {
+    background-color: yellowgreen;
+}

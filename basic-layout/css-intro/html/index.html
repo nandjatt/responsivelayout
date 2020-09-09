@@ -1,0 +1,167 @@
+<html lang="en">
+<!-- HEAD is for settingsand configurations of yoyr website/html doc -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <!--
+        There are 3 ways to implementing CSS. And the have different priorities.
+        Priority order:
+        1. Inline (style="")
+        2. Embedded (<style></style>)
+        3. Linked CSS ()
+    -->
+
+    <!--
+        If 2 styles conflict on the same element. Then the more specific selector has higher priority
+
+        Priority order
+        1. ID selectors (#example)
+        2. Class selectors (.example)
+        3. Type selectors (div)
+
+        furthermore, if 2 styles has the same priority, then the latter overrides the previous.
+    -->
+
+    <!-- <style>
+        #main-container {
+            background-color: beige;
+        }
+
+        .list-item-ul {
+            color: red;
+        }
+
+        .list-item-ol {
+            color: blue;
+        }
+
+        .pink-bg {
+            background-color: pink;
+        }
+
+        .skyblue-bg {
+            background-color: skyblue;
+        }
+
+        #brown-bg {
+            background-color: brown;
+        }
+
+        h3 {
+            background-color: greenyellow;
+        }
+
+        h6 {
+            background-color: yellowgreen;
+        }
+    </style> -->
+</head>
+
+<!-- Bode is HTML code specific for the user -->
+<body>
+    <div id="main-container">
+        <h1>A short intro to HTML (HyperTexr Markup Language)</h1>
+
+        <br> <!-- New line -->
+        <hr> <!-- Horizontal line -->
+        <br> <!-- New line -->
+
+        <h1>These are headline elements in different sizes</h1>
+        <h2>These are headline elements in different sizes</h2>
+        <h3>These are headline elements in different sizes</h3>
+        <h4>These are headline elements in different sizes</h4>
+        <h5>These are headline elements in different sizes</h5>
+        <h6 id="brown-bg" class="pink-bg">These are headline elements in different sizes</h6>
+
+        <br> <!-- New line -->
+        <hr> <!-- Horizontal line -->
+        <br> <!-- New line -->
+
+        <h3>Section for components and texts</h3>
+
+        <div> '< div >' is a section-element. May contain other sections, components and texts </div>
+        <p> '< p >' is a paragrapgh-element. Used for texts </p>
+
+        <br> <!-- New line -->
+        <hr> <!-- Horizontal line -->
+        <br> <!-- New line -->
+
+        <h3>Lists</h3>
+
+        <ul>
+            <li class="list-item-ul pink-bg skyblue-bg">'< ul >' is unordered list. Contains '< li >' (listitems)</li>
+            <li class="list-item-ul">'< ul >' is unordered list. Contains '< li >' (listitems)</li>
+            <li class="list-item-ul pink-bg">'< ul >' is unordered list. Contains '< li >' (listitems)</li>
+        </ul>
+
+        <ol>
+            <li class="list-item-ol pink-bg">'< ol >' is ordered list. Contains '< li >' (listitems)</li>
+            <li class="list-item-ol">'< ol >' is ordered list. Contains '< li >' (listitems)</li>
+            <li class="list-item-ol pink-bg">'< ol >' is ordered list. Contains '< li >' (listitems)</li>
+        </ol>
+
+
+        <br> <!-- New line -->
+        <hr> <!-- Horizontal line -->
+        <br> <!-- New line -->
+
+        <h3>Links</h3>
+
+        <a href="#">A link that doesn't go anywhere</a>
+        <br>
+        <a href="https://google.se">A link to google.se</a>
+
+        <br> <!-- New line -->
+        <hr> <!-- Horizontal line -->
+        <br> <!-- New line -->
+
+        <h3>Image</h3>
+        <img src="../img/logo.png" alt="" width="100" height="auto">
+        
+        <br> 
+
+        <h3>Clickable Image</h3>
+        <a href="https://google.se">
+            <img src="../img/logo.png" alt="" width="100" height="auto">
+        </a>
+
+
+        <br> <!-- New line -->
+        <hr> <!-- Horizontal line -->
+        <br> <!-- New line -->
+
+        <h3>Components of a form. Textfield and button</h3>
+
+        <input type="text" placeholder="Please fill in your name">
+        <br>
+        <input type="text" value="Default text">
+        <br>
+        <input type="button" value="Klick me :)">
+
+
+        <h3>Id and class</h3>
+
+        <p>
+            Id:s and classes are global attributes that can be placed in all elements. They are used by CSS and JavaScript to target specific elements, so that the elements can be manipulated with styling or dynamic functions.
+            
+            <ol>
+                <li> A specific ID may be used only once in an HTML document. While classes may be used multiple times.</li>
+                <li> Furthermore, a tag may contain only one ID, but can contain multiple classes</li>
+            </ol>
+        </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+</body>
+</html>

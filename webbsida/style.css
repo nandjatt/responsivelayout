@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    line-height: 24px;  
+}
+body {
+  font-size: 16px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+header {
+    margin: 5px;    
+    padding: 10px;
+    border: 10px double black;
+    background-color:rgb(241, 241, 210);
+}
+nav {
+    margin: 0px 0 5px 0;
+    padding: 10px;
+    border: 5px dotted rgb(144, 182, 144);
+    border-radius: 5px;
+    font-size: 10px;
+    }
+nav ul :hover {
+    margin: 0px 0 5px 0;
+    padding: 5px;
+    background-color:  rgb(144, 182, 144);
+    color: beige;
+}
+nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}   
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+.inline-block1, .inline-block2, .inline-block3 {
+    display: inline-block;
+    background-color: rgb(144, 182, 144);
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;   
+}
+footer {
+    background-color:beige;
+    margin-top: 10px;
+    padding: 10px;
+}
+.wrapper, .container, aside, .main {
+    background-color: rgb(144, 182, 144);
+    padding: 10px;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+a {
+    color: black;
+    font-size: 20px;
+}
+a:active {
+    color: beige;
+
+}
+.column{
+    float: left;
+    width: 50%;
+}
